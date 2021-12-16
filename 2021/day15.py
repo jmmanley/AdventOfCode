@@ -13,6 +13,7 @@ class ChitonCave:
 		self.sizey = len(self.risk[0])
 
 	def tile_map(self, nx=5, ny=5):
+		# instead, could just write a function to query risk when needed that calculates risk for any (i,j)
 		self.sizex = nx*self.sizex
 		self.sizey = ny*self.sizey
 
